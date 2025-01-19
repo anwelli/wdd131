@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+    /* Temples Grid Styles for Large View */
+  
+    .temples-grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  }
+  
