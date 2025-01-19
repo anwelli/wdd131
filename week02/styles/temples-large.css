@@ -1,6 +1,9 @@
-@media (min-width: 768px) {
-  /* Temples Grid Styles for Large View */
-  .temples-grid {
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+.temples-grid {
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+  
+  @media (min-width: 768px) {
+.temples-grid {
+  grid-template-columns: repeat(3,200px);
   }
   }
