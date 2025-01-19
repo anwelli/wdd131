@@ -4,6 +4,6 @@
   
   @media (min-width: 768px) {
 .temples-grid {
-  grid-template-columns: repeat(3,200px);
+  grid-template-columns: repeat(3, 200px);
   }
   }
