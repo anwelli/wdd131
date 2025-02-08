@@ -63,13 +63,7 @@ body {
     .nav-right li {
     margin-bottom: 10px;
     }
-    }
-    * Responsive Navigation Menu */
-
-    nav ul li {
-    margin-bottom: 10px;
-    }
-    
+    }   
     nav ul li a {
     display: block;
     padding: 10px;
