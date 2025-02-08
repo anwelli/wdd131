@@ -1,0 +1,17 @@
+.temples-grid {
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+  
+  @media (min-width: 768px) {
+.temples-grid {
+  grid-template-columns: repeat(3, 200px);
+  }
+  }
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 768px) {
+  .temples-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+}

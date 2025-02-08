@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WDD 131 -Temples Album Page- Azuka Anwelli Happiness</title>
+<meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Azuka Anwelli Happiness, web development, HTML, CSS, JavaScript">
+<meta name="author" content="Azuka Anwelli Happiness">
+<link rel="stylesheet" href="week02/styles/filtered-temples.css">
+<link rel="stylesheet" href="week02/styles/filtered-temples-large.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+    <div class="header-container">
+    <h1>Temples Album</h1>
+  
+    <nav>
+    <ul class="nav-right">
+      <li><a href="#" class="nav-link" data-filter="all">Home</a></li>
+      <li><a href="#" class="nav-link" data-filter="old">Old</a></li>
+      <li><a href="#" class="nav-link" data-filter="new">New</a></li>
+      <li><a href="#" class="nav-link" data-filter="large">Large</a></li>
+      <li><a href="#" class="nav-link" data-filter="small">Small</a></li>
+    </ul>
+    <button class="hamburger-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+    </button>
+    </nav>
+    </div>
+    </header>  
+  <main>
+    <div class="temples-container" id="temples-container"></div>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Anwelli Happiness Azuka</p>
+    <p>Last Modified: <span id="last-modified"></span></p>
+  </footer>
+  <script src="week02/scripts/filtered-temples.js"></script>
+</body>
+</html>
+
