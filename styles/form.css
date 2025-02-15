@@ -164,7 +164,7 @@ footer {
         }
         
         #overall-rating input[type="radio"] {
-        margin: 0;
+        margin: 10px;
         }
         
         /* Media query for small screens */
@@ -173,14 +173,8 @@ footer {
         flex-direction: column;
         }
         .rating-container {
-        margin-right: 0;
+        margin-right: 10px;
         }
         }
-        
-  /* Add this to your styles/form.css file */
-#useful-features div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    }
+
           
