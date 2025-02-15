@@ -177,4 +177,11 @@ footer {
         }
         }
 
-          
+        #overall-rating label {
+            font-size: 24px;
+            margin-bottom: 5px;
+            }
+      /* Add this to your CSS file */
+#useful-features label {
+    display:inline;
+    }      
